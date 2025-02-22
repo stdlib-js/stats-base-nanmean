@@ -169,7 +169,7 @@ var v = nanmean.ndarray( N, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   If every indexed element is `NaN`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmean`][@stdlib/stats/base/dnanmean], [`snanmean`][@stdlib/stats/base/snanmean], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmean`][@stdlib/stats/strided/dnanmean], [`snanmean`][@stdlib/stats/base/snanmean], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -216,7 +216,7 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats-base/dnanmean`][@stdlib/stats/base/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dnanmean`][@stdlib/stats/strided/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/mean`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/snanmean`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values.</span>
 
@@ -250,7 +250,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -304,7 +304,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats-base-dnanmean
+[@stdlib/stats/strided/dnanmean]: https://github.com/stdlib-js/stats-strided-dnanmean
 
 [@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats-base-mean
 
